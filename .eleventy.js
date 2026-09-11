@@ -8,6 +8,12 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0))
   );
 
+  eleventyConfig.addCollection("events", (collectionApi) =>
+    collectionApi
+      .getFilteredByGlob("src/events/*.md")
+      .sort((a, b) => new Date(a.data.date) - new Date(b.data.date))
+  );
+
   return {
     dir: {
       input: "src",
