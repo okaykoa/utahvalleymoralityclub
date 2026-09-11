@@ -6,6 +6,16 @@ module.exports = function (eleventyConfig) {
     items.filter((item) => item.data.category === category)
   );
 
+  const clubDateFormat = new Intl.DateTimeFormat("en-US", {
+    timeZone: "UTC",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+  eleventyConfig.addFilter("clubDate", (value) =>
+    clubDateFormat.format(new Date(value))
+  );
+
   eleventyConfig.addCollection("members", (collectionApi) =>
     collectionApi
       .getFilteredByGlob("src/members/*.md")

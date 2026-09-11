@@ -8,7 +8,7 @@ neighbors alike.</p>
 
 {% for event in collections.events %}
 <div class="entry">
-  <p class="entry-meta">{{ event.data.date }}</p>
+  <p class="entry-meta">{{ event.data.date | clubDate }}</p>
   <h2>{{ event.data.title }}</h2>
   {{ event.templateContent | safe }}
 </div>

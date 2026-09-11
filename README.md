@@ -18,6 +18,7 @@ new file to add a new entry — no other code changes are needed.
 - `src/members/*.md` — frontmatter: `name`, `role`, `order` (controls
   display order, ascending).
 - `src/events/*.md` — frontmatter: `title`, `date` (`YYYY-MM-DD`), `kind`.
+  Displayed oldest-first.
 - `src/reading-list/*.md` — frontmatter: `title`, `author`, `category`
   (must be one of `For the Young Reader`, `Further Study`, or
   `Classic Works`), `order` (ascending within its category).

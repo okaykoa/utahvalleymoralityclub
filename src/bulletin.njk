@@ -7,7 +7,7 @@ layout: layouts/base.njk
 
 {% for dispatch in collections.bulletin %}
 <div class="entry">
-  <p class="entry-meta">{{ dispatch.data.date }}</p>
+  <p class="entry-meta">{{ dispatch.data.date | clubDate }}</p>
   <h2>{{ dispatch.data.title }}</h2>
   {{ dispatch.templateContent | safe }}
 </div>
