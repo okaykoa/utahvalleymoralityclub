@@ -1,0 +1,14 @@
+---
+title: The Bulletin
+layout: layouts/base.njk
+---
+<h1>The Bulletin</h1>
+<p>News of the membership, most recent first.</p>
+
+{% for dispatch in collections.bulletin %}
+<div class="entry">
+  <p class="entry-meta">{{ dispatch.data.date }}</p>
+  <h2>{{ dispatch.data.title }}</h2>
+  {{ dispatch.templateContent | safe }}
+</div>
+{% endfor %}
