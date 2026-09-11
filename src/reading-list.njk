@@ -1,0 +1,18 @@
+---
+title: Reading List
+layout: layouts/base.njk
+---
+<h1>Reading List</h1>
+<p>Recommended by the membership for the cultivation of good character.</p>
+
+{% set categories = ["For the Young Reader", "Further Study", "Classic Works"] %}
+{% for category in categories %}
+<h2>{{ category }}</h2>
+{% for entry in collections.readingList | byCategory(category) %}
+<div class="entry">
+  <p class="entry-meta">{{ entry.data.author }}</p>
+  <h3>{{ entry.data.title }}</h3>
+  {{ entry.templateContent | safe }}
+</div>
+{% endfor %}
+{% endfor %}
