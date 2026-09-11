@@ -4,9 +4,11 @@ author: Derek Parfit (1984)
 category: Further Study
 order: 2
 ---
-Dense, and worth the density. Parfit spent a career hoping that careful
-enough reasoning would bring moral theories that look opposed &mdash;
-consequentialist, Kantian, contractualist &mdash; into agreement on the
-cases that matter. Read alongside his later "On What Matters," the
-honest conclusion of the project is that convergence remains an aspiration
-rather than an achievement, however far the reasoning is pushed.
+Dense, and worth the density. Parfit spent much of the book pursuing what
+makes the interests of future generations matter to us &mdash; and arrived, by
+reasoning he trusted more than its conclusion, at what he named the
+Repugnant Conclusion: that by principles which each seem individually
+sound, a far larger population living lives barely worth living would
+have to be judged better than a smaller population living well. He spent
+the rest of his career trying to reason his way back out, and never
+fully did. We recommend it for the reasoning, not the comfort.
