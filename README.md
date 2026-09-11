@@ -1,6 +1,6 @@
-# The Morality Club
+# The Utah Valley Morality Club
 
-A static site for the Morality Club, built with Eleventy.
+A static site for the Utah Valley Morality Club, built with Eleventy.
 
 ## Development
 
