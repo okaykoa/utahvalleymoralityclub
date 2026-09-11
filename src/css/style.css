@@ -1,0 +1,111 @@
+:root {
+  --paper: #f3ecd9;
+  --ink: #3a2f22;
+  --maroon: #6b1f22;
+  --forest: #2f4030;
+  --gold: #a9822f;
+  --rule: #c9bb96;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paper);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.015) 0px, rgba(0,0,0,0.015) 1px, transparent 1px, transparent 3px);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+.site-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem;
+  border-bottom: 3px double var(--maroon);
+}
+
+.seal {
+  width: 84px;
+  height: 84px;
+}
+
+.masthead {
+  font-family: "Rockwell", "Courier New", serif;
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  margin: 0.5rem 0 0.1rem;
+}
+
+.tagline {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  color: var(--forest);
+  margin: 0 0 1.25rem;
+}
+
+.club-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+}
+
+.club-nav a {
+  color: var(--forest);
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid transparent;
+}
+
+.club-nav a:hover,
+.club-nav a:focus {
+  border-bottom-color: var(--gold);
+}
+
+.content-column {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.content-column h1 {
+  font-family: "Rockwell", "Courier New", serif;
+  color: var(--maroon);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.4rem;
+}
+
+.content-column h2 {
+  font-family: "Rockwell", "Courier New", serif;
+  color: var(--forest);
+  margin-top: 2.5rem;
+}
+
+.entry {
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.entry:first-of-type {
+  border-top: none;
+}
+
+.entry-meta {
+  font-variant: small-caps;
+  color: var(--maroon);
+  margin: 0 0 0.35rem;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--forest);
+  border-top: 1px solid var(--rule);
+  padding: 1.5rem 1rem;
+}

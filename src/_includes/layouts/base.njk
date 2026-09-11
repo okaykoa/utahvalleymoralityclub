@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} — The Morality Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/assets/seal.svg">
+</head>
+<body>
+  <header class="site-header">
+    <img src="/assets/seal.svg" alt="Seal of the Morality Club" class="seal">
+    <p class="masthead">The Morality Club</p>
+    <p class="tagline">Chartered for the Cultivation of Good Character</p>
+    <nav class="club-nav">
+      <a href="/">Home</a>
+      <a href="/charter/">Our Charter</a>
+      <a href="/members/">Members</a>
+      <a href="/events/">Events</a>
+      <a href="/reading-list/">Reading List</a>
+      <a href="/bulletin/">The Bulletin</a>
+      <a href="/join/">Join Us</a>
+    </nav>
+  </header>
+  <main class="content-column">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <p>The Morality Club &mdash; Meeting Regularly Since Its Founding</p>
+  </footer>
+</body>
+</html>
