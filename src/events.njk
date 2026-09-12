@@ -3,12 +3,11 @@ title: Events
 layout: layouts/base.njk
 ---
 <h1>Events</h1>
-<p>Suppers, cookouts, talks, and reading circles, open to members and
-neighbors alike.</p>
+<p>The club's yearly round, one gathering to a season.</p>
 
 {% for event in collections.events %}
 <div class="entry">
-  <p class="entry-meta">{{ event.data.date | clubDate }}</p>
+  <p class="entry-meta">{{ event.data.season }}</p>
   <h2>{{ event.data.title }}</h2>
   {{ event.templateContent | safe }}
 </div>

@@ -1,8 +1,8 @@
 ---
 title: Founders Day Cookout
-date: 2026-06-14
-kind: bbq
+season: Summer
+order: 4
 ---
-Our largest gathering of the year, held on the anniversary of the club's
-charter at a park pavilion in Provo. The Charter is read aloud, the grill
-runs all afternoon, and new members are welcomed into the roster.
+Our largest gathering of the year, held in honor of the anniversary
+of the club's charter. The Charter is read aloud, and the grill runs
+all afternoon.
