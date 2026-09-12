@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
   );
 
   return {
+    pathPrefix: "/utahvalleymoralityclub/",
     dir: {
       input: "src",
       output: "_site",

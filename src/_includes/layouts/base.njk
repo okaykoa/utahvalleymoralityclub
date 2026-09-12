@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} — The Utah Valley Morality Club</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" href="/assets/seal.svg">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  <link rel="icon" href="{{ '/assets/seal.svg' | url }}">
 </head>
 <body>
   <header class="site-header">
-    <img src="/assets/timpanogos.svg" alt="" class="mountain-line" aria-hidden="true">
-    <img src="/assets/seal.svg" alt="Seal of the Utah Valley Morality Club" class="seal">
+    <img src="{{ '/assets/timpanogos.svg' | url }}" alt="" class="mountain-line" aria-hidden="true">
+    <img src="{{ '/assets/seal.svg' | url }}" alt="Seal of the Utah Valley Morality Club" class="seal">
     <p class="masthead">
       <span class="masthead-region">Utah Valley</span>
       <span class="masthead-name">Morality Club</span>
     </p>
     <p class="tagline">Chartered for the Cultivation of Good Character</p>
     <nav class="club-nav">
-      <a href="/">Home</a>
-      <a href="/charter/">Our Charter</a>
-      <a href="/events/">Events</a>
-      <a href="/bulletin/">The Bulletin</a>
-      <a href="/reading-list/">Reading List</a>
+      <a href="{{ '/' | url }}">Home</a>
+      <a href="{{ '/charter/' | url }}">Our Charter</a>
+      <a href="{{ '/events/' | url }}">Events</a>
+      <a href="{{ '/bulletin/' | url }}">The Bulletin</a>
+      <a href="{{ '/reading-list/' | url }}">Reading List</a>
     </nav>
   </header>
   <main class="content-column">
